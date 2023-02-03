@@ -1,0 +1,119 @@
+@import url('https://api.fontshare.com/v2/css?f[]=synonym@400&f[]=amulya@700&display=swap');
+
+body {
+  font-family: 'Amulya', sans-serif;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/a2/94/b5/a294b593769b6bf61b55c152032e7459.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-family: 'Synonym', sans-serif;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 100px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaJogos{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+#listaJogos img {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin: 10px;
+  max-height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 #000000;
+}
+
+.textoDasImagens{
+  font-family: 'Amulya', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+#removerJogo{
+  font-family: 'Amulya', sans-serif;
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 5px;
+  background: rgba( 255, 255, 255, 0.100 );
+  box-shadow: 0 8px 32px 0 #000000;
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  cursor: pointer;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  opacity: 0.5;
+  display: block;
+  font-family: 'Amulya', sans-serif;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.form-wrapper button {
+  font-family: 'Synonym', sans-serif;
+  box-shadow: 0 8px 32px 0 #000000;
+  border: 0;
+  color: #ffffff;
+  background: #390d66;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.efeitoVidro{
+  margin-top: 10px;
+  width: 450px;
+  background: rgba( 255, 255, 255, 0.100 );
+  box-shadow: 0 8px 32px 0 #000000;
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
+}
