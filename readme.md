@@ -11,4 +11,5 @@ O projeto _biblioteca gamer_ foi desenvolvido na semana de imersão Dev 2023 e t
 ![Tela](tela2.png)
 
 > [LinkedIn](https://www.linkedin.com/in/ana-carolina-lambertucci-simas/)
+
 > [CodePen](https://codepen.io/anasimas/pen/XWBodKB)
